@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple - Простые вещи</title>
+    <link rel="stylesheet" href="Selyunin_AV_Task_5.css">
+</head>
+<body class="page">
+
+    <header class="header">
+        <div class="header__container container">
+            
+            <a href="#" class="logo">
+                <span class="logo__circle"></span>
+                <span class="logo__text">simple</span>
+                <span class="logo__capsule"></span>
+                <span class="logo__circle"></span>
+            </a>
+
+            <nav class="header__nav nav">
+                <button class="nav__close" aria-label="Закрыть меню">✕</button>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Продукция</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Материалы</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <button class="header__btn" aria-label="Поиск">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+                <button class="header__btn" aria-label="Вход">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                        <polyline points="10 17 15 12 10 7"></polyline>
+                        <line x1="15" y1="12" x2="3" y2="12"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <button class="header__burger" aria-label="Меню">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Простые вещи.<br>Из бумаги
+                </h1>
+                <p class="hero__text">
+                    Бумага (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками.
+                </p>
+                <a href="#" class="hero__btn btn btn_secondary">Каталог</a>
+            </div>
+            <div class="hero__image-wrapper">
+                <img src="Img/svg/Layer 2 copy.svg" alt="Рулон бумаги" class="hero__image">
+            </div>
+        </div>
+    </section>
+
+    <section class="paper-features">
+        <div class="container">
+            <div class="features">
+                <div class="features__item">
+                    <div class="features__icon-wrapper">
+                        <img src="Img/svg/Buissnes Cards v2 (85x55).png" alt="Иконка V1" class="features__icon">
+                    </div>
+                    <div class="features__content">
+                        <h3 class="features__title">V.1</h3>
+                        <p class="features__text">Результат вашего обучения</p>
+                    </div>
+                </div>
+
+                <div class="features__item">
+                    <div class="features__icon-wrapper">
+                        <img src="Img/svg/Buissnes Cards v6 (85x55) 1.png" alt="Иконка V2" class="features__icon">
+                    </div>
+                    <div class="features__content">
+                        <h3 class="features__title">V.2</h3>
+                        <p class="features__text">Результат вашего обучения</p>
+                    </div>
+                </div>
+
+                <div class="features__item">
+                    <div class="features__icon-wrapper">
+                        <img src="Img/svg/Buissnes Cards v5 (85x55) 1.png" alt="Иконка V3" class="features__icon">
+                    </div>
+                    <div class="features__content">
+                        <h3 class="features__title">V.3</h3>
+                        <p class="features__text">Результат вашего обучения</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="whitepaper">
+                <div class="whitepaper__image-wrapper">
+                    <img src="Img/svg/Folder v8 Open 1.png" alt="Максимальная белизна" class="whitepaper__image">
+                </div>
+                <div class="whitepaper__content">
+                    <h2 class="whitepaper__title">Максимальная<br>белизна</h2>
+                    <p class="whitepaper__text">
+                        Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.
+                    </p>
+                    <p class="whitepaper__text">
+                        Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="products__grid">
+                <article class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="Img/svg/Frame 208.png" alt="Упаковка" class="product-card__image">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Упаковка</h3>
+                        <p class="product-card__subtitle">Тираж: от 50 штук</p>
+                        <p class="product-card__desc">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
+                        <a href="#" class="product-card__link">Подробнее →</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="Img/svg/Frame 209.png" alt="Пакеты" class="product-card__image">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Пакеты</h3>
+                        <p class="product-card__subtitle">Тираж: от 200 штук</p>
+                        <p class="product-card__desc">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
+                        <a href="#" class="product-card__link">Подробнее →</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="Img/svg/Frame 211.png" alt="Кейсы" class="product-card__image">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Кейсы</h3>
+                        <p class="product-card__subtitle">Тираж: от 30 штук</p>
+                        <p class="product-card__desc">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
+                        <a href="#" class="product-card__link">Подробнее →</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-card__image-wrapper">
+                        <img src="Img/svg/Frame 210.png" alt="Другие изделия" class="product-card__image">
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title">Другие изделия</h3>
+                        <p class="product-card__subtitle">Тираж: от 100 штук</p>
+                        <p class="product-card__desc">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
+                        <a href="#" class="product-card__link">Подробнее →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <div class="partners__grid">
+                <div class="partners__item">
+                    <img src="Img/svg/hahnemuehle-logo-vector 1.svg" alt="Hahnemühle" class="partners__logo">
+                </div>
+                <div class="partners__item">
+                    <img src="Img/svg/Frame 225.svg" alt="Canson" class="partners__logo">
+                </div>
+                <div class="partners__item">
+                    <img src="Img/svg/royal-talens-bv-logo-vector 1.svg" alt="Royal Talens" class="partners__logo">
+                </div>
+                <div class="partners__item">
+                    <img src="Img/svg/Frame.svg" alt="Fabriano" class="partners__logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sketchbook">
+        <div class="container sketchbook__container">
+            <div class="sketchbook__content">
+                <h2 class="sketchbook__title">Simple скетчбук</h2>
+                <p class="sketchbook__text">
+                    80 листов, твердая обложка, бумага Fabriano 200 г/м². Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!
+                </p>
+                <a href="#" class="btn btn_secondary">Купить</a>
+            </div>
+            <div class="sketchbook__image-wrapper">
+                <img src="Img/svg/pic.svg" alt="Simple скетчбук" class="sketchbook__image">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__grey">
+            <div class="container footer__grey-inner">
+                <div class="footer__logo-row">
+                    <a href="#" class="logo logo_theme_light">
+                        <span class="logo__circle"></span>
+                        <span class="logo__text">simple</span>
+                        <span class="logo__capsule"></span>
+                        <span class="logo__circle"></span>
+                    </a>
+                </div>
+                <div class="footer__socials-row">
+                    <div class="footer__socials">
+                        <a href="#" class="footer__social-link"><img src="Img/svg/Frame(4).svg" alt="Facebook"></a>
+                        <a href="#" class="footer__social-link"><img src="Img/svg/Frame (1).svg" alt="Twitter"></a>
+                        <a href="#" class="footer__social-link"><img src="Img/svg/Frame (2).svg" alt="Instagram"></a>
+                        <a href="#" class="footer__social-link"><img src="Img/svg/Frame (3).svg" alt="YouTube"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer__white">
+            <div class="container">
+                <p class="footer__copy">SIMPLE © 2021</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="Selyunin_AV_Task_5.js"></script>
+</body>
+</html>
